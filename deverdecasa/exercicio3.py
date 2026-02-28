@@ -1,2 +1,5 @@
 produtos = [("Teclado", 150), ("Mouse", 80), ("Monitor", 900)]
-ordenar = lambda x: x
+
+ordenar = sorted(produtos, key=lambda x: x[1])
+
+print(ordenar)
